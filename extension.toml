@@ -1,0 +1,11 @@
+id = "gcode"
+name = "G-code"
+description = "G-code support"
+version = "0.0.1"
+schema_version = 1
+authors = ["ChocolateNao <andrey12q112@gmail.com>"]
+repository = "https://github.com/ChocolateNao/zed-gcode"
+
+[grammars.gcode]
+repository = "https://github.com/ChocolateNao/tree-sitter-gcode"
+commit = "b5516810543ca2b8f88bcebbc1f5af1ff7152f74"

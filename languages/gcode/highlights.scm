@@ -1,46 +1,121 @@
 ; comments
+
 [
   (eol_comment)
   (inline_comment)
 ] @comment
 
 ; words
-(word
-  (g_word) @keyword
-)
 
-(word
-  [
-    (axis_word)
-    (indexed_axis_word)
-  ] @number
-)
+(g_word) @keyword
 
-(word
-  (m_word) @constructor
-)
+[
+  (axis_word)
+  (indexed_axis_word)
+] @number
 
-(word
-  (f_word) @module
-)
+(m_word) @constructor
 
-(word
-  (t_word) @tag
-)
+(f_word) @module
 
-(word
-  (s_word) @attribute
-)
+(o_word) @keyword
 
-(word
-  (parameter_word) @property
-)
+(t_word) @tag
 
-(word
-  (other_word) @tag
-)
+(s_word) @attribute
+
+(parameter_word) @property
+
+(parameter_identifier) @property
+
+(parameter_variable
+(unsigned_integer) @property)
+
+(property_name) @string
+
+(other_word) @tag
+
+(expression
+  (number) @number)
+
+(unary_expression
+  (number) @number)
+
+(binary_expression
+  (number) @number)
+
+(parameter_variable
+  (number) @number)
 
 ; helpers
 (line_number) @constant
 
 (checksum) @operator
+
+; operators, keywords and functions
+
+[
+ "eq"
+ "ne"
+ "gt"
+ "ge"
+ "lt"
+ "le"
+ "and"
+ "or"
+ "xor"
+ "**"
+ "mod"
+ "/"
+ "*"
+ "-"
+ "+"
+ "="
+] @operator
+
+[
+  "abs"
+  "acos"
+  "asin"
+  "cos"
+  "exp"
+  "fix"
+  "fup"
+  "ln"
+  "round"
+  "sin"
+  "sqrt"
+  "tan"
+  "exists"
+  "atan"
+  "bin"
+  "bcd"
+] @keyword.function
+
+[
+  "if"
+  "else"
+  "elseif"
+  "endif"
+  "goto"
+  "then"
+  "while"
+  "endwhile"
+  "do"
+  "end"
+  "call"
+  "sub"
+  "endsub"
+  "repeat"
+  "endrepeat"
+  "continue"
+  "break"
+  "return"
+] @keyword
+
+; punctuation
+
+[
+ "["
+ "]"
+] @punctuation.bracket

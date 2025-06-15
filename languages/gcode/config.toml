@@ -7,6 +7,8 @@ path_suffixes = [
   "tap",
   "nc",
   "ncd",
+  "gco",
+  "bfb",
   "gcode",
   "eia",
   "tcn",
@@ -53,5 +55,8 @@ path_suffixes = [
   "out"
 ]
 line_comments = ["; ", "( ", " )"]
-brackets = [{ start = "(", end = ")", close = true, newline = false }]
-autoclose_before = ")"
+brackets = [
+  { start = "(", end = ")", close = true, newline = false },
+  { start = "[", end = "]", close = true, newline = false }
+]
+autoclose_before = "]"

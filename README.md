@@ -1,8 +1,10 @@
 # zed-gcode
 
-[G-code](https://en.wikipedia.org/wiki/G-code) support for [Zed](https://zed.dev)
+[G-code](https://en.wikipedia.org/wiki/G-code) support for [Zed](https://zed.dev).
 
 - Tree-sitter: [tree-sitter-gcode](https://github.com/ChocolateNao/tree-sitter-gcode)
+
+<img src="assets/showcase.png"/>
 
 ## Usage
 

@@ -8,4 +8,5 @@ repository = "https://github.com/ChocolateNao/zed-gcode"
 
 [grammars.gcode]
 repository = "https://github.com/ChocolateNao/tree-sitter-gcode"
+# v0.1.1
 commit = "4c1afe6d2cc3c9946ad188fc74e17bb474d0e5c2"

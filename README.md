@@ -10,21 +10,17 @@
 
 This extension currently supports the following file extensions:
 
-|  |  |  |  |
-|--------------|--------------|--------------|--------------|
-| ply          | sub          | g            | tap          |
-| nc           | ncd          | gco          | bfb          |
-| gcode        | eia          | tcn          | fgc          |
-| gp           | knc          | ssb          | dnc          |
-| ncf          | xpi          | lib          | min          |
-| nci          | fnc          | spf          | cnc          |
-| din          | g00          | mmg          | ecs          |
-| gcd          | m            | mpt          | ncg          |
-| ncp          | sbp          | anc          | aptcl        |
-| mpf          | hnc          | ngc          | prg          |
-| pim          | apt          | 001          | cls          |
-| fan          | plt          | pu1          | pit          |
-| rol          | S            | gc           | out          |
+|          |          |          |          |          |          |
+|----------|----------|----------|----------|----------|----------|
+| ply      | sub      | g        | tap      | nc       | ncd      |
+| gco      | bfb      | gcode    | eia      | tcn      | fgc      |
+| gp       | knc      | ssb      | dnc      | ncf      | xpi      |
+| lib      | min      | nci      | fnc      | spf      | cnc      |
+| din      | g00      | mmg      | ecs      | gcd      | m        |
+| mpt      | ncg      | ncp      | sbp      | anc      | aptcl    |
+| mpf      | hnc      | ngc      | prg      | pim      | apt      |
+| 001      | cls      | fan      | plt      | pu1      | pit      |
+| rol      | S        | gc       | out      |          |          |
 
 ## Usage
 

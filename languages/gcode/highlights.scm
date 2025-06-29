@@ -22,9 +22,16 @@
 
 (t_word) @tag
 
-(s_word) @attribute
+[
+  (s_word)
+  (spindle_select)
+  (polar_distance)
+] @attribute
 
-(parameter_word) @property
+[
+  (parameter_word)
+  (polar_angle)
+] @property
 
 (parameter_identifier) @property
 
